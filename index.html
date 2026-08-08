@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <!-- servlet1 -->
+    <form action="/demo/addition" method="post">
+        <input type="text" placeholder="Enter A:" name="a"/>
+        <input type="text" placeholder="Enter B:" name="b"/>
+        <input type="submit" value="addition">
+    </form>
+    <hr/>
+
+    <!-- prg23 -->
+    <form action="/demo/welcome" method="post">
+        <input name="username" type="text"/>
+        <input type="submit"/>
+    </form>
+    <hr/>
+
+    <!-- prg24 -->
+    <h2>Enter Employee Details</h2>
+    <form action="emp" method="GET">
+        <label>Employee Number:</label><br>
+        <input type="text" name="empNo" required><br><br>
+
+        <label>Employee Name:</label><br>
+        <input type="text" name="empName" required><br><br>
+
+        <label>Designation:</label><br>
+        <input type="text" name="designation" required><br><br>
+
+        <label>Qualifications:</label><br>
+        <input type="text" name="qualifications" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+    <hr/>
+
+    <!-- prg25 -->
+    <h2>Student Registration Form</h2>
+    <form action="student" method="POST">
+        <label>Roll Number:</label><br>
+        <input type="text" name="rollno" required><br><br>
+
+        <label>Name:</label><br>
+        <input type="text" name="name" required><br><br>
+
+        <label>Course:</label><br>
+        <input type="text" name="course" required><br><br>
+
+        <label>Semester:</label><br>
+        <input type="text" name="semester" required><br><br>
+
+        <label>Hobbies:</label><br>
+        <input type="checkbox" name="hobbies" value="Reading"> Reading<br>
+        <input type="checkbox" name="hobbies" value="Traveling"> Traveling<br>
+        <input type="checkbox" name="hobbies" value="Sports"> Sports<br>
+        <input type="checkbox" name="hobbies" value="Music"> Music<br><br>
+        <input type="submit" value="Register">
+    </form>
+    <hr/>
+
+    <!-- prg26 -->
+    <h2>Servlet Lifecycle Demonstration</h2>
+    <form action="lifecycle" method="get">
+        <input type="submit" value="Invoke Servlet"/>
+    </form>
+    <hr/>
+
+    <!-- prg27 -->
+    <h2>HTTP Request Header Information</h2>
+    <form action="headers" method="get">
+        <input type="submit" value="Invoke Servlet"/>
+    </form>
+    <hr/>
+
+    <!-- prg28 -->
+    <form action="login" method="post">
+        Username:
+        <input type="text"  name="username"><br><br>
+        Password:
+        <input type="password"  name="password"><br><br>
+
+        <input type="submit" value="login">
+    </form>
+    <hr/>
+
+    <!-- prg29 -->
+    <h2>Simple Calculator using Servlet</h2>
+    <form action="calculate" method="get">
+        Num 1: <input type="text" name="num1"><br>
+        Num 2: <input type="text" name="num2"><br>
+        <input type="radio" name="op" value="add" checked>Add
+        <input type="radio" name="op" value="sub">Sub
+        <input type="radio" name="op" value="mul">Mul
+        <input type="radio" name="op" value="div">Div<br>
+        <input type="submit" value="Calculate">
+    </form>
+    <hr/>
+
+    <!-- prg30 -->
+    <form action="redirect" method="get">
+        <input type="submit" value="Go to Google">
+    </form>
+    <hr/>
+
+    <!-- prg31 -->
+    <form action="error" method="get">
+        <input type="submit" value="Show 404 error">
+    </form>
+    <hr/>
+
+    <!-- prg32 -->
+    <h2>URL Rewriting Demo - Login</h2>
+    <form action="url" method="GET">
+        Enter Username:
+        <input type="text" name="username" required>
+        <input type="submit" value="Submit">
+    </form>
+    <hr/>
+
+    <!-- prg33 -->
+
+</body>
+</html>
